@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../JS/PrimaryScript.js" defer></script>
     <link rel="stylesheet" href="../CSS/main.css" />
+    <lang="en">
     <title>Home</title>
   </head>
   <body>
@@ -26,13 +27,27 @@
     </nav>
     <h1 class="mainTitle">Bloom Valley Nursery</h1>
     <h2 class="secondTitle">Welcomes You!</h2>
-    <img class="mainImage" src="../Bloom Valley Nursery Gallery Images/FlowerShopImageGenerated.jpeg">
+    <img
+      class="mainImage"
+      src="../Bloom Valley Nursery Gallery Images/FlowerShopImageGenerated.jpeg"
+    />
     <div class="subscribeContainer">
-    <p class="subscribeText">Subscribe to our newsletter for deals and new products</p>
-    <button id="subscribeButton">Subscribe</button>
+      <form class="emailSubscribeForm">
+        <p class="subscribeText">
+          Subscribe to our newsletter for deals and new products
+        </p>
+        <input
+          type="email"
+          id="emailEntry"
+          name="email"
+          placeholder="Enter your email address"
+        />
+        <button id="subscribeButton">Subscribe</button>
+      </form>
     </div>
   </body>
-  <footer>
-    <p class="copyright">&copy; 2024 Bloom Valley Nursery</p>
-  </footer>
 </html>
+<footer>
+  <p class="copyright">&copy; 2024 Bloom Valley Nursery</p>
+  <a href="Contact.html" id="contactUSLink">Contact US</a>
+</footer>

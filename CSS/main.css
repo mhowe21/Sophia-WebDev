@@ -104,20 +104,31 @@ ul.navbar {
 }
 footer {
     position : relative;
+    display: inline-flexbox;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    
     color: #014038;
 }
 .copyright {
-    display: block;
-    margin-right: 80%;
+    display: inline-flex;
+    margin-right: 85%;
     color: #014038;
     padding: 1em;
     opacity: 35%;
+    text-align: center;
+}
+#contactUSLink {
+    display: inline-flex;
+    margin-left: 85%;
+    color: #014038;
+    padding: 1em;
+    opacity: 100%;
+    text-align: center;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 800px) {
   .storyImage {
     flex: 50%;
   }
@@ -165,7 +176,5 @@ footer {
         cursor: pointer;
         /* Rounded corners */
         border-radius: 12px;
-        
-        
-      
-}
+  }
+
