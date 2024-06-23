@@ -114,4 +114,20 @@ footer {
   .storyBody {
     flex: 50%;
   }
+  .gridGallery{
+    display: grid;
+    grid-template-columns: 1fr;;
+    grid-gap: 2%;
+  }
+}
+
+.gridGallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 10px;
+}
+
+.gridGallery img {
+    width: 100%;
+    height: auto;
 }
