@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Remove list styles*/
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f7f7f7;
+  }
+  
+  /* Create horizontal list */
+  ul.navbar li {
+    float: left;
+  }
+  
+  /* Style the links */
+  ul.navbar li a {
+    display: block;
+    color: #014038;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  ul.navbar li a:hover {
+    background-color: #bdd4da;
+  }
+
+.navbar-logo {
+    
+    padding: 2%;
+   
+}
+.navbar-logo img {
+    width: 80px;
+    height: 80px;
+    vertical-align: left;
+}
+.mainTitle {
+    text-align: center;
+    color: #014038;
+}
