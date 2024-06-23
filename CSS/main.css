@@ -1,10 +1,16 @@
+/* font family */
+body {
+    font-family: "Trebuchet MS", "Times New Roman", "Impact",
+      "Comic Sans MS", "Calibri Normal", "Roboto";
+  }
+
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-/* Remove list styles*/
+/* Navbar */
 ul.navbar {
     list-style-type: none;
     margin: 0;
@@ -16,6 +22,7 @@ ul.navbar {
   /* Create horizontal list */
   ul.navbar li {
     float: left;
+    
   }
   
   /* Style the links */
@@ -25,18 +32,21 @@ ul.navbar {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Trebuchet MS", "Times New Roman", "Impact";
+    font-size: 1.5em;
   }
   
   /* Change color on hover */
   ul.navbar li a:hover {
     background-color: #bdd4da;
   }
-
+/* logo padding*/
 .navbar-logo {
     
     padding: 2%;
    
 }
+/* logo image size */
 .navbar-logo img {
     width: 80px;
     height: 80px;
@@ -55,8 +65,8 @@ ul.navbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height : 70%;
-    width : 70%;
+    height : 50%;
+    width : 50%;
     z-index: -1; 
     position:relative;
 }
@@ -104,6 +114,7 @@ footer {
     margin-right: 80%;
     color: #014038;
     padding: 1em;
+    opacity: 35%;
 }
 
 @media (max-width: 600px) {
@@ -130,4 +141,31 @@ footer {
 .gridGallery img {
     width: 100%;
     height: auto;
+}
+.subscribeContainer {
+    text-align: center;
+    display: flexbox;
+}
+#subscribeButton {
+  
+        background-color: #F0c06D;
+        /* Blue color */
+        border: none;
+        color: white;
+        /* White text color */
+        padding: 15px 32px;
+        /* Padding */
+        text-align: center;
+        /* Centered text */
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: "Comic Sans MS", Times, serif;
+        margin: 4px 2px;
+        cursor: pointer;
+        /* Rounded corners */
+        border-radius: 12px;
+        
+        
+      
 }
