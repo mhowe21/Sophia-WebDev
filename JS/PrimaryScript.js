@@ -1,4 +1,6 @@
 const subscribeButton = document.getElementById("subscribeButton");
+//const contactForm = document.getElementById("contactForm");
+console.log("primary script loaded");
 let cart = [];
 
 subscribeButton.addEventListener("click", function () {
@@ -13,3 +15,12 @@ function addToCart(item, imgSrc) {
   localStorage.setItem("cart", JSON.stringify(cart));
   alert("Item added to cart!");
 }
+document
+  .getElementById("contactForm")
+  .addEventListener("submit", function (event) {
+    // Prevent the form from submitting normally
+    event.preventDefault();
+
+    // Your code here...
+    console.log("Form submitted");
+  });

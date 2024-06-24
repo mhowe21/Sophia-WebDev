@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../CSS/main.css" />
+    <script src="../JS/PrimaryScript.js" defer></script>
     <title>Contact Us</title>
   </head>
   <body>
@@ -26,13 +27,13 @@
         </ul>
       </div>
     </nav>
-    <form action="/submit_form" method="post">
+    <form id="contactForm">
       <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required><br>
+      <input type="email" id="contactEmail" name="email" required><br>
       <label for="subject">Subject:</label><br>
-      <input type="text" id="subject" name="subject" required><br>
+      <input type="text" id="contactSubject" name="subject" required><br>
       <label for="comments">Comments:</label><br>
-      <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br>
+      <textarea id="contactComments" name="comments" rows="4" cols="50" required></textarea><br>
       <input type="submit" value="Submit">
     </form>
   </body>
