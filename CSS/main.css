@@ -56,6 +56,24 @@ ul.navbar {
     height: 80px;
     vertical-align: left;
 }
+
+/* Responsive Styles for small screens */
+@media screen and (max-width: 450px) {
+  ul.navbar li {
+    float: none;
+    width: 100%;
+  }
+
+  ul.navbar li a {
+    text-align: left;
+    padding: 5px; /* Reduce padding on small screens */
+  }
+
+  .navbar-logo img {
+    width: 40px; 
+    height: 40px;
+  }
+}
 .mainTitle {
     text-align: center;
     color: #014038;
