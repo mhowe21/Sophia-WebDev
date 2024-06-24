@@ -4,6 +4,10 @@ body {
       "Comic Sans MS", "Calibri Normal", "Roboto";
   }
 
+body{
+  background-color: rgba(150,186,160,0.3)
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -104,23 +108,37 @@ ul.navbar {
 }
 footer {
     position : relative;
-    display: inline-flexbox;
+    display: block;
     bottom: 0;
     width: 100%;
     
     color: #014038;
 }
-.copyright {
+
+.footerContainer {
     display: inline-flex;
-    margin-right: 85%;
+    width: 100%;
+    
+}
+
+.footerItem {
+  display: inline-flex
+
+}
+
+.footerItemContact {
+  display: inline-flex;
+  margin-left: 50%;
+}
+.copyright {
+    display: inline-block;
     color: #014038;
     padding: 1em;
     opacity: 35%;
     text-align: center;
 }
 #contactUSLink {
-    display: inline-flex;
-    margin-left: 85%;
+    display: inline-block;
     color: #014038;
     padding: 1em;
     opacity: 100%;
@@ -162,7 +180,7 @@ footer {
         background-color: #F0c06D;
         /* Blue color */
         border: none;
-        color: white;
+        color: black;
         /* White text color */
         padding: 15px 32px;
         /* Padding */
@@ -188,7 +206,7 @@ footer {
   background-color: #F0c06D;
         /* Blue color */
         border: none;
-        color: white;
+        color: black;
         /* White text color */
         padding: 2%;
         /* Padding */
@@ -244,7 +262,7 @@ footer {
   background-color: #F0c06D;
         /* Blue color */
         border: none;
-        color: white;
+        color: black;
         /* White text color */
         padding: 2%;
         /* Padding */

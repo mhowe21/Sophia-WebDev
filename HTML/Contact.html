@@ -26,12 +26,24 @@
         </ul>
       </div>
     </nav>
+    <form action="/submit_form" method="post">
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="subject">Subject:</label><br>
+      <input type="text" id="subject" name="subject" required><br>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
   </body>
   <footer>
-    <p class="copyright">&copy; 2024 Bloom Valley Nursery</p>
-    <a href="Contact.html" onclick="return false" id="contactUSLink"
-      >Contact US</a
-    >
-    >
+    <div class="footerContainer">
+      <div class="footerItem">
+        <p class="copyright">&copy; 2024 Bloom Valley Nursery</p>
+      </div>
+      <div class="footerItem footerItemContact">
+        <a href="Contact.html" id="contactUSLink">Contact US</a>
+      </div>
+    </div>
   </footer>
 </html>
