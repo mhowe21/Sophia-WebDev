@@ -180,7 +180,7 @@ footer {
 
  /* shopping page image styling */ 
 .shoppingImage {
-    width: 10%;
+    width: 30%;
     height: auto;
 }
 
@@ -204,7 +204,58 @@ footer {
         border-radius: 12px;
   }
   
-.shoppingCartImage {
-    width: 10%;
+#shoppingItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 10px;
+}
+
+.item{
+    text-align: center;
+    font-size: 1.5em;
+    color: #014038;
+    padding: 0.5%;
+    width: 100%;
+}
+
+.shoppingImage {
+    width: 95%;
     height: auto;
 }
+
+.shoppingCartImage {
+  display: block ;
+    width: 25%;
+    height: auto;
+    align-items: left;
+    padding: 2%;
+}
+.itemContainer {
+    display: flexbox;
+    text-align: left;
+    font-size: 1.5em;
+    color: #014038;
+    padding: 2%;
+    
+    
+}
+
+.removeButton {
+  background-color: #F0c06D;
+        /* Blue color */
+        border: none;
+        color: white;
+        /* White text color */
+        padding: 2%;
+        /* Padding */
+        text-align: left;
+        /* Centered text */
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: "Comic Sans MS", Times, serif;
+        margin: 4px 2px;
+        cursor: pointer;
+        /* Rounded corners */
+        border-radius: 12px;
+  }

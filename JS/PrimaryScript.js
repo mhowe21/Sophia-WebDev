@@ -11,4 +11,5 @@ subscribeButton.addEventListener("click", function () {
 function addToCart(item, imgSrc) {
   cart.push({ item: item, imgSrc: imgSrc });
   localStorage.setItem("cart", JSON.stringify(cart));
+  alert("Item added to cart!");
 }
