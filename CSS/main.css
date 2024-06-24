@@ -277,3 +277,23 @@ footer {
         /* Rounded corners */
         border-radius: 12px;
   }
+
+         input[type=text],
+         input[type=email],
+         textarea,
+         input[type=submit] {
+           border: 2px solid #BDD4DA;
+           border-radius: 5px;
+           padding: 10px;
+           margin: 10px 0;
+         }
+    
+         input[type=submit] {
+           background-color: #BDD4DA;
+           color: white;
+           cursor: pointer;
+         }
+    
+         input[type=submit]:hover {
+           background-color: #9cb6c4;
+         }
