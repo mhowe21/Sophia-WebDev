@@ -8,7 +8,7 @@ subscribeButton.addEventListener("click", function () {
   alert("Thank you for subscribing!");
 });
 
-function addToCart(item) {
-  cart.push(item);
+function addToCart(item, imgSrc) {
+  cart.push({ item: item, imgSrc: imgSrc });
   localStorage.setItem("cart", JSON.stringify(cart));
 }

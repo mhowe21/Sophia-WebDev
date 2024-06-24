@@ -204,4 +204,7 @@ footer {
         border-radius: 12px;
   }
   
-
+.shoppingCartImage {
+    width: 10%;
+    height: auto;
+}
