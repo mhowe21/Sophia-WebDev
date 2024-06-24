@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../CSS/main.css" />
-    <script src="../JS/PrimaryScript.js" defer></script>
+    <script src="../JS/form.js" defer></script>
     <title>Contact Us</title>
   </head>
   <body>
@@ -16,7 +16,8 @@
             <a href="Home.html"
               ><img
                 src="../Bloom Valley Nursery Gallery Images/Client1_LogoPalette2_014038.png"
-            alt="Logo of Bloom Valley Nursery is a link that redirects to the home page"/></a>
+                alt="Logo of Bloom Valley Nursery is a link that redirects to the home page"
+            /></a>
           </li>
           <li alt="About Us Page http link">
             <a href="About.html">About</a>
@@ -28,13 +29,13 @@
       </div>
     </nav>
     <form id="contactForm">
-      <label for="email">Email:</label><br>
-      <input type="email" id="contactEmail" name="email" required><br>
-      <label for="subject">Subject:</label><br>
-      <input type="text" id="contactSubject" name="subject" required><br>
-      <label for="comments">Comments:</label><br>
-      <textarea id="contactComments" name="comments" rows="4" cols="50" required></textarea><br>
-      <input type="submit" value="Submit">
+      <label for="fname">Name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message"></textarea><br />
+      <input type="submit" value="Submit" />
     </form>
   </body>
   <footer>

@@ -278,22 +278,32 @@ footer {
         border-radius: 12px;
   }
 
-         input[type=text],
-         input[type=email],
-         textarea,
-         input[type=submit] {
-           border: 2px solid #BDD4DA;
-           border-radius: 5px;
-           padding: 10px;
-           margin: 10px 0;
-         }
-    
-         input[type=submit] {
-           background-color: #BDD4DA;
-           color: white;
-           cursor: pointer;
-         }
-    
-         input[type=submit]:hover {
-           background-color: #9cb6c4;
-         }
+
+
+
+#contactForm {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#contactForm ,input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+#contactForm input[type=submit] {
+  background-color: #F0c06D;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
