@@ -57,7 +57,7 @@ ul.navbar {
     vertical-align: left;
 }
 
-/* Responsive Styles for small screens */
+/* Responsive navbar for small screens */
 @media screen and (max-width: 450px) {
   ul.navbar li {
     float: none;
@@ -164,7 +164,7 @@ footer {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .storyImage {
     flex: 50%;
   }
@@ -174,7 +174,7 @@ footer {
   }
   .gridGallery{
     display: grid;
-    grid-template-columns: 1fr;;
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
     grid-gap: 2%;
   }
 }
