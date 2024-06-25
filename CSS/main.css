@@ -58,7 +58,7 @@ ul.navbar {
 }
 
 /* Responsive navbar for small screens */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 420px) {
   ul.navbar li {
     float: none;
     width: 100%;
@@ -146,17 +146,18 @@ footer {
 
 .footerItemContact {
   display: inline-flex;
+  text-align: center;
   margin-left: 50%;
 }
 .copyright {
-    display: inline-block;
+    display: inline-flex;
     color: #014038;
     padding: 1em;
     opacity: 35%;
     text-align: center;
 }
 #contactUSLink {
-    display: inline-block;
+    display: inline-flex;
     color: #014038;
     padding: 1em;
     opacity: 100%;
@@ -164,7 +165,7 @@ footer {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .storyImage {
     flex: 50%;
   }
@@ -174,7 +175,7 @@ footer {
   }
   .gridGallery{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(85%, 1fr));
     grid-gap: 2%;
   }
 }
@@ -305,7 +306,7 @@ footer {
   width: 100%;
 }
 
-#contactForm ,input[type=text], textarea {
+#contactForm ,input[type=text], input[type=email], textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
